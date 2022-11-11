@@ -13,6 +13,7 @@ Please note that the light theme is a bit unfinished, since I don't really use i
 - color is used only where neessary, so the theme doesn't look like a 🎄
 - the colors work well together and are very pleasing to look at 🍓😋
 - numbers stand out a bit more
+- keywords are of a very satisfying strawberry color, as they are the most important and describe the flow of code
 - looks pretty with Night Shift on 🌙
 
 <img width="1280" alt="Screenshot 2022-11-11 at 14 20 24" src="https://user-images.githubusercontent.com/94306330/201350347-fdf5229d-4d6f-4244-9887-d3263c9daf3c.png">
