@@ -21,6 +21,8 @@ Please note that the light theme is a bit unfinished, since I don't really use i
 
 For VSCode, the theme isn't really a "theme" rather a configuration file, `settings.json` since that editor has pretty bad settings out of the box. It also overrides some ugly 🎄 settings rust-analyzer forces on, like underlining variables, and replaces the font with San Francisco mono (if you have it installed, if not Apple has a download link on their site, you can also use your favorite font, or just the default if you're not on macOS 😉).
 
+Telemetry is also disabled 🕵🏻
+
 The color theme itself is just overriding the colors of the `Visual Studio Dark` theme. There is no light mode.
 
 ## Other editors
