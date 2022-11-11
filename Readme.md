@@ -9,7 +9,7 @@ To install for Xcode, place the files in
 Please note that the light theme is a bit unfinished, since I don't really use it.
 
 ### Features:
-- instances of classes are a slightly warmer green than structs, making it easier to tell them apart :)
+- instances of classes are of a slightly warmer green than structs, making them easier to tell apart :)
 - color is used only where neessary, so the theme doesn't look like a 🎄
 - the colors work well together and are very pleasing to look at 🍓😋
 - numbers stand out a bit more
