@@ -8,6 +8,8 @@ To install for Xcode, place the files in
 
 Please note that the light theme is a bit unfinished, since I don't really use it.
 
+The themes marked `(italic)` have more dynamic, italic keywords to make them stand out even more.
+
 ### Features:
 - instances of classes are of a slightly warmer green than structs, making them easier to tell apart :)
 - color is used only where neessary, so the theme doesn't look like a 🎄
