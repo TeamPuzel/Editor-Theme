@@ -6,7 +6,7 @@ To install for Xcode, place the files in
 ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ```
 
-Please note that the light theme is a bit unfinished, since I don't really use it.
+Please note that the non italic light theme is a bit unfinished, since I don't really use it.
 
 The themes marked `(italic)` have more dynamic, italic keywords to make them stand out even more.
 
@@ -18,7 +18,14 @@ The themes marked `(italic)` have more dynamic, italic keywords to make them sta
 - keywords are of a very satisfying strawberry color, as they are the most important and describe the flow of code
 - looks pretty with Night Shift on 🌙
 
-<img width="1280" alt="Screenshot 2022-11-11 at 14 20 24" src="https://user-images.githubusercontent.com/94306330/201350347-fdf5229d-4d6f-4244-9887-d3263c9daf3c.png">
+<img width="400" alt="image1" src="https://user-images.githubusercontent.com/94306330/201350347-fdf5229d-4d6f-4244-9887-d3263c9daf3c.png">
+
+italic:
+
+<img width="400" alt="image2" src="https://user-images.githubusercontent.com/94306330/202185178-f3bdf765-e918-445a-bc88-f6bcb8e46cb2.png">
+
+<img width="400" alt="image3" src="https://user-images.githubusercontent.com/94306330/202185584-d6bb1fcd-d8e6-4e2a-823e-d86d142bb9d5.png">
+
 
 ## VScode
 
