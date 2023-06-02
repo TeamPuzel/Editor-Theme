@@ -1,0 +1,359 @@
+{
+    "workbench.editor.untitled.hint": "hidden",
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "customizeUI.activityBar": "top",
+    "customizeUI.activityBarHideSettings": true,
+    "vscode_vibrancy.theme": "Default Dark",
+    "vscode_vibrancy.opacity": 0,
+    "security.workspace.trust.untrustedFiles": "open",
+    // "editor.fontFamily": "SFMono-Regular",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "editor.inlineSuggest.enabled": true,
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "manual",
+    "security.workspace.trust.enabled": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "vscode_vibrancy.type": "ultra-dark",
+    "files.autoSave": "afterDelay",
+    "editor.trimAutoWhitespace": false,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "rust-analyzer.cargo.buildScripts.overrideCommand": null,
+    "rust-analyzer.checkOnSave.allTargets": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.lineHeight": 20,
+    "rust-analyzer.semanticHighlighting.operator.enable": false,
+    "rust-analyzer.semanticHighlighting.punctuation.enable": false,
+    "zenMode.centerLayout": false,
+    "window.nativeTabs": false,
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            //"keyword": "#fa4673",
+            "method": "#80baed",
+            "struct": "#9bc485",
+            "keyword": {
+                "foreground": "#fa4673",
+                "fontStyle": "italic"
+            },
+            "*.mutable": {
+                "underline": false
+            },
+            //"class": "#92e3a0",
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "keywords": "#fa4673",
+            "strings": "#fba169",
+            "comments": "#6f868f",
+            "numbers": "#ffbb00",
+            "types": "#e5be6b",
+            "variables": "#edecec",
+            "functions": "#edecec",
+            "textMateRules": [
+                {
+                    "scope": "storage.type.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.class.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.attribute.swift",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.new.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.interface",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class.ts",
+                    "settings": {
+                        "foreground": "#e5be6b",
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class.ts",
+                    "settings": {
+                        "foreground": "#e5be6b",
+                    }
+                },
+                {
+                    "scope": "variable.language.this.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.expression.delete.ts"  ,
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.type.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.namespace.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.enum.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.expression.of.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.property.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "constant.language.boolean.true.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "constant.language.boolean.false.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.async.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.expression.in.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.class.imba",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.style.imba",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.zig",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.imba",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "",
+                    "settings": {
+                        "foreground": "#e5be6b",
+                    }
+                },
+                {
+                    "scope": "keyword",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": "keyword.operator.imba",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "foreground": "#9cd480",
+                    }
+                },
+            ]
+        }
+    },
+    "workbench.tree.indent": 24,
+    "editor.minimap.renderCharacters": false,
+    "workbench.colorCustomizations": {
+        
+        "editorError.foreground":   "#00000000",
+        "editorWarning.foreground": "#00000000",
+        "editorInfo.foreground":    "#00000000",
+        
+        "editorGutter.addedBackground": "#2a3926",
+        "editorGutter.deletedBackground": "#3b2b2b",
+        "editorGutter.modifiedBackground": "#333",
+        
+        "[Visual Studio Dark]": {
+            "activityBar.background": "#202020",
+            "activityBar.border": "#303030",
+            "editor.background": "#171717",
+            
+            "editorBracketMatch.border": "#ff000000",
+            
+            "editor.lineHighlightBorder": "#ff000000",
+            "editor.lineHighlightBackground": "#202020",
+            
+            "sideBar.background": "#202020",
+            "sideBar.border": "#303030",
+            
+            "widget.shadow": "#ffffff00",
+            "scrollbar.shadow": "#ffffff00",
+            "statusBar.background": "#171717",
+            "scrollbarSlider.background": "#ffffff18",
+            
+            "tab.border": "#303030",
+            "tab.inactiveBackground": "#202020",
+            "tab.activeBackground": "#171717",
+            "terminal.tab.activeBorder": "#303030",
+            "terminal.background": "#171717",
+            "terminal.border": "#303030",
+            
+            "editorLineNumber.foreground": "#454545"
+        }
+    },
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.fontSize": 13,
+    "zenMode.hideLineNumbers": true,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#1d1d1d"
+        }
+    ],
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.foldingHighlight": false,
+    "zls.path": "/usr/local/bin/zls",
+    "zls.zig_exe_path": "zig",
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.snippetSuggestions": "none",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+        },
+    },
+    "go.languageServerExperimentalFeatures": {
+        "diagnostics": false,
+    },
+    "imba.useImbaFromProject": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "css.lint.unknownAtRules": "ignore",
+    "editor.minimap.enabled": false,
+    "zig.zls.enableInlayHints": false,
+    "zig.zls.warnStyle": true,
+    "zig.zigPath": "/Users/david/zig/zig",
+    "zig.formattingProvider": "off",
+    "zig.revealOutputChannelOnFormattingError": false,
+    "zig.zls.enableAutofix": false,
+    "zig.zls.inlayHintsShowBuiltin": false,
+    "[zig]": {
+        "editor.formatOnSave": false
+    },
+    "editor.guides.indentation": true,
+    "files.exclude": {
+        "**/zig-cache": true
+    },
+    "zig.zls.maxDetailLength": 104857641,
+    "zig.zls.checkForUpdate": false,
+    "zig.zls.semanticTokens": "full",
+    "workbench.activityBar.visible": false,
+    "zenMode.fullScreen": false,
+    "rust-analyzer.lens.enable": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.occurrencesHighlight": false
+}
