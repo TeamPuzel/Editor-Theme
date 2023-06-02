@@ -18,6 +18,18 @@ There is now a version marked (JB) which uses JetBrains Mono instead of SF
 - the colors work well together and are very pleasing to look at 🍓
 - numbers stand out which I found to be more readable
 
+# Screenshots
+
+### Xcode
+<img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/690ee9d7-c910-43f0-8a05-b7ef96a2aaa7">
+<img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/4ae6bd4b-780d-472e-a235-2b53331b71a7">
+
+### VSCode
+<img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/85f322ad-d355-4011-bcf8-31f9936df841">
+
+### Fleet
+<img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/e153c759-9466-482b-a714-f44f58fa7b21">
+
 ## VSCode
 
 For VSCode the theme isn't really a "theme" rather just a configuration file changing the default one, I'm not willing to bother with their overcomplicated theme system.
