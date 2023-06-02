@@ -1,0 +1,27 @@
+{
+    "theme": "strawberry",
+    "autoEnabledSmartMode": true,
+    "warn.before.quitting": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.showFileDetails": true,
+    "editor.showFileStatus": true,
+    "editor.alwaysShowVerticalScrollbar": false,
+    "fus.sendAllowed": false,
+    "editor.distractionFreeMode": true,
+    "editor.showNavBar": true,
+    "editor.showScrollbarMarks": true,
+    "vimEmulationEnabled": false,
+    "editor.ligatures": false,
+    "ff.showDaemonPostlines": true,
+    "[rust]": {
+        "editor.semanticHighlighting": true,
+    },
+    "editor.tabSize": 4,
+    "restoreWorkspacesOnStartup": false,
+    "goto_panel.showShortcuts": true,
+    "editor.formatOnSave": false,
+    "[go]": {
+        "editor.formatOnSave": false,
+    },
+    "trimTrailingSpacesOnSave": false,
+}
