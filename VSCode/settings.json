@@ -1,5 +1,6 @@
 {
     "workbench.editor.untitled.hint": "hidden",
+    "tabnine.experimentalAutoImports": true,
     "terminal.integrated.gpuAcceleration": "off",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -25,7 +26,7 @@
     "rust-analyzer.checkOnSave.allTargets": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
-    "editor.lineHeight": 20,
+    "editor.lineHeight": 22,
     "rust-analyzer.semanticHighlighting.operator.enable": false,
     "rust-analyzer.semanticHighlighting.punctuation.enable": false,
     "zenMode.centerLayout": false,
@@ -263,6 +264,12 @@
             ]
         }
     },
+    // ???
+    // "workbench.editor.limit.enabled": true,
+    // "workbench.editor.limit.value": 1,
+    // "workbench.editor.showTabs": false,
+    // ???
+    
     "workbench.tree.indent": 24,
     "editor.minimap.renderCharacters": false,
     "workbench.colorCustomizations": {
@@ -316,7 +323,6 @@
     "breadcrumbs.enabled": false,
     "explorer.confirmDelete": false,
     "editor.foldingHighlight": false,
-    "zls.path": "/usr/local/bin/zls",
     "zls.zig_exe_path": "zig",
     "[go]": {
         "editor.formatOnSave": false,
@@ -335,7 +341,6 @@
     "editor.minimap.enabled": false,
     "zig.zls.enableInlayHints": false,
     "zig.zls.warnStyle": true,
-    "zig.zigPath": "/Users/david/zig/zig",
     "zig.formattingProvider": "off",
     "zig.revealOutputChannelOnFormattingError": false,
     "zig.zls.enableAutofix": false,
@@ -349,11 +354,11 @@
     },
     "zig.zls.maxDetailLength": 104857641,
     "zig.zls.checkForUpdate": false,
-    "zig.zls.semanticTokens": "full",
-    "workbench.activityBar.visible": false,
+    "haskell.manageHLS": "GHCup",
     "zenMode.fullScreen": false,
     "rust-analyzer.lens.enable": false,
     "editor.guides.highlightActiveBracketPair": false,
     "editor.guides.highlightActiveIndentation": false,
-    "editor.occurrencesHighlight": false
+    "editor.occurrencesHighlight": false,
+    "zig.zls.semanticTokens": "full",
 }
