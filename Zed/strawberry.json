@@ -1,0 +1,51 @@
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Strawberry",
+    "author": "TeamPuzel",
+    "themes": [
+        {
+            "name": "Strawberry Dark",
+            "appearance": "dark",
+            "style": {
+                "editor.background": "#111111",
+                "background": "#111111",
+                "border": "#303030",
+                "text": "#ffffff88",
+                "editor.line_number": "#ffffff22",
+                "editor.active_line_number": "#ffffff66",
+                "editor.active_line.background": "#ffffff0a",
+                "error.background": "#562530",
+                "error.border": "#fa4673",
+                "warning.background": "#544a31",
+                "warning.border": "#e5be6b",
+                "editor.foreground": "#dddddd",
+                
+                "players": [
+                    {
+                    "cursor": "#aaaaaa",
+                    "background": "#10a793ff",
+                    "selection": "#92e3a02d"
+                    }
+                ],
+                
+                // "hint": "#618399",
+                "hint": "#5b6b6b",
+                "syntax": {
+                    "keyword": { "color": "#fa4673", "font_style": "italic" },
+                    "boolean": { "color": "#fa4673", "font_style": "italic" },
+                    "constructor": { "color": "#fa4673", "font_style": "italic" },
+                    "attribute": { "color": "#fa4673", "font_style": "italic" },
+                    // struct - 9bc485, type - e5be6b
+                    "type": { "color": "#92e3a0" },
+                    "function": { "color": "#80baed" },
+                    "number": { "color": "#ffbb00" },
+                    "comment": { "color": "#6f868f" },
+                    "comment.doc": { "color": "#6f868f" },
+                    "string": { "color": "#fba169" },
+                    "hint": { "color": "#ffffff10" },
+                    // "variable": { "color": "#bbbbbb" }
+                }
+            }
+        }
+    ]
+}
