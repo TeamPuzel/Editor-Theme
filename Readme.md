@@ -27,6 +27,9 @@ There is now a version marked (JB) which uses JetBrains Mono instead of SF
 ### VSCode
 <img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/85f322ad-d355-4011-bcf8-31f9936df841">
 
+### Zed
+<img width="1840" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/8b8bf44c-f093-406b-b74c-4cb806ed8ebb">
+
 ### Fleet
 <img width="1440" alt="image" src="https://github.com/TeamPuzel/Editor-Theme/assets/94306330/e153c759-9466-482b-a714-f44f58fa7b21">
 
