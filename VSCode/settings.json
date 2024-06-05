@@ -1,13 +1,7 @@
 {
-    "workbench.editor.untitled.hint": "hidden",
-    "tabnine.experimentalAutoImports": true,
+    "rust-analyzer.showUnlinkedFileNotification": false,
     "terminal.integrated.gpuAcceleration": "off",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "customizeUI.activityBar": "top",
-    "customizeUI.activityBarHideSettings": true,
-    "vscode_vibrancy.theme": "Default Dark",
-    "vscode_vibrancy.opacity": 0,
     "security.workspace.trust.untrustedFiles": "open",
     // "editor.fontFamily": "SFMono-Regular",
     "editor.fontFamily": "JetBrains Mono",
@@ -16,20 +10,17 @@
     "telemetry.telemetryLevel": "off",
     "update.mode": "manual",
     "security.workspace.trust.enabled": false,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "vscode_vibrancy.type": "ultra-dark",
     "files.autoSave": "afterDelay",
     "editor.trimAutoWhitespace": false,
-    "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": true,
     "rust-analyzer.cargo.buildScripts.overrideCommand": null,
-    "rust-analyzer.checkOnSave.allTargets": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.inlayHints.enabled": "offUnlessPressed",
-    "editor.lineHeight": 22,
+    // "editor.lineHeight": 22,
+    "editor.lineHeight": 19,
     "rust-analyzer.semanticHighlighting.operator.enable": false,
     "rust-analyzer.semanticHighlighting.punctuation.enable": false,
-    "zenMode.centerLayout": false,
+    "zenMode.centerLayout": true,
     "window.nativeTabs": false,
     "editor.semanticTokenColorCustomizations": {
         "rules": {
@@ -71,7 +62,21 @@
                     }
                 },
                 {
+                    "scope": "storage.type.class.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.type.function.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -92,6 +97,13 @@
                     }
                 },
                 {
+                    "scope": "storage.type.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.modifier.ts",
                     "settings": {
                         "foreground": "#fa4673",
@@ -99,7 +111,21 @@
                     }
                 },
                 {
+                    "scope": "storage.modifier.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "keyword.operator.new.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.new.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -119,7 +145,7 @@
                     }
                 },
                 {
-                    "scope": "entity.name.type.class.ts",
+                    "scope": "entity.name.type.class.js",
                     "settings": {
                         "foreground": "#e5be6b",
                     }
@@ -132,7 +158,21 @@
                     }
                 },
                 {
-                    "scope": "keyword.operator.expression.delete.ts"  ,
+                    "scope": "variable.language.this.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.expression.delete.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.expression.delete.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -146,7 +186,21 @@
                     }
                 },
                 {
+                    "scope": "storage.type.type.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.type.namespace.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.namespace.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -160,6 +214,13 @@
                     }
                 },
                 {
+                    "scope": "storage.type.enum.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "keyword.operator.expression.of.ts",
                     "settings": {
                         "foreground": "#fa4673",
@@ -167,7 +228,21 @@
                     }
                 },
                 {
+                    "scope": "keyword.operator.expression.of.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.type.property.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.property.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -188,7 +263,28 @@
                     }
                 },
                 {
+                    "scope": "constant.language.boolean.true.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "constant.language.boolean.false.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.modifier.async.ts",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.async.js",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -202,7 +298,49 @@
                     }
                 },
                 {
+                    "scope": "keyword.operator.expression.in.js",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     "scope": "storage.type.class.imba",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.class.python",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.declaration.python",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.python",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "variable.language.special.self.python",
+                    "settings": {
+                        "foreground": "#fa4673",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type.function.async.python",
                     "settings": {
                         "foreground": "#fa4673",
                         "fontStyle": "italic"
@@ -269,11 +407,12 @@
     // "workbench.editor.limit.value": 1,
     // "workbench.editor.showTabs": false,
     // ???
+    "editor.mouseWheelScrollSensitivity": 0.3,
     
     "workbench.tree.indent": 24,
     "editor.minimap.renderCharacters": false,
     "workbench.colorCustomizations": {
-        
+    
         "editorError.foreground":   "#00000000",
         "editorWarning.foreground": "#00000000",
         "editorInfo.foreground":    "#00000000",
@@ -283,16 +422,17 @@
         "editorGutter.modifiedBackground": "#333",
         
         "[Visual Studio Dark]": {
-            "activityBar.background": "#202020",
+            "activityBar.background": "#181818",
             "activityBar.border": "#303030",
-            "editor.background": "#171717",
+            // "editor.background": "#171717",
+            "editor.background": "#111111",
             
             "editorBracketMatch.border": "#ff000000",
             
-            "editor.lineHighlightBorder": "#ff000000",
-            "editor.lineHighlightBackground": "#202020",
+            "editor.lineHighlightBorder": "#40404000",
+            "editor.lineHighlightBackground": "#191919",
             
-            "sideBar.background": "#202020",
+            "sideBar.background": "#181818",
             "sideBar.border": "#303030",
             
             "widget.shadow": "#ffffff00",
@@ -301,46 +441,74 @@
             "scrollbarSlider.background": "#ffffff18",
             
             "tab.border": "#303030",
-            "tab.inactiveBackground": "#202020",
-            "tab.activeBackground": "#171717",
+            "tab.inactiveBackground": "#1a1a1a",
+            "tab.activeBackground": "#111111",
             "terminal.tab.activeBorder": "#303030",
-            "terminal.background": "#171717",
+            "terminal.background": "#111111",
             "terminal.border": "#303030",
             
             "editorLineNumber.foreground": "#454545"
         }
+        // "[Visual Studio Dark]": {
+        //     "activityBar.background": "#202020",
+        //     "activityBar.border": "#303030",
+        //     // "editor.background": "#171717",
+        //     "editor.background": "#111111",
+            
+        //     "editorBracketMatch.border": "#ff000000",
+            
+        //     "editor.lineHighlightBorder": "#ff000000",
+        //     "editor.lineHighlightBackground": "#202020",
+            
+        //     "sideBar.background": "#202020",
+        //     "sideBar.border": "#303030",
+            
+        //     "widget.shadow": "#ffffff00",
+        //     "scrollbar.shadow": "#ffffff00",
+        //     "statusBar.background": "#171717",
+        //     "scrollbarSlider.background": "#ffffff18",
+            
+        //     "tab.border": "#303030",
+        //     "tab.inactiveBackground": "#202020",
+        //     "tab.activeBackground": "#171717",
+        //     "terminal.tab.activeBorder": "#303030",
+        //     "terminal.background": "#171717",
+        //     "terminal.border": "#303030",
+            
+        //     "editorLineNumber.foreground": "#454545"
+        // }
     },
     "editor.scrollbar.verticalScrollbarSize": 8,
     "editor.scrollbar.horizontalScrollbarSize": 0,
-    "editor.fontSize": 13,
     "zenMode.hideLineNumbers": true,
     "editor.rulers": [
         {
-            "column": 80,
+            "column": 100,
+            "color": "#1d1d1d"
+        },
+        {
+            "column": 120,
             "color": "#1d1d1d"
         }
     ],
-    "breadcrumbs.enabled": false,
     "explorer.confirmDelete": false,
     "editor.foldingHighlight": false,
+    "zls.path": "/usr/local/bin/zls",
     "zls.zig_exe_path": "zig",
     "[go]": {
         "editor.formatOnSave": false,
         "editor.snippetSuggestions": "none",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": false,
+            "source.organizeImports": "never"
         },
     },
-    "go.languageServerExperimentalFeatures": {
-        "diagnostics": false,
-    },
-    "imba.useImbaFromProject": true,
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
     "css.lint.unknownAtRules": "ignore",
     "editor.minimap.enabled": false,
     "zig.zls.enableInlayHints": false,
     "zig.zls.warnStyle": true,
+    "zig.zigPath": "/Users/teampuzel/zig/zig",
     "zig.formattingProvider": "off",
     "zig.revealOutputChannelOnFormattingError": false,
     "zig.zls.enableAutofix": false,
@@ -348,17 +516,35 @@
     "[zig]": {
         "editor.formatOnSave": false
     },
-    "editor.guides.indentation": true,
+    "zig.zls.globalCachePath": "/Users/teampuzel/.cache/zig",
+    "editor.guides.indentation": false,
     "files.exclude": {
         "**/zig-cache": true
     },
     "zig.zls.maxDetailLength": 104857641,
-    "zig.zls.checkForUpdate": false,
     "haskell.manageHLS": "GHCup",
+    "haskell.ghcupExecutablePath": "/Users/teampuzel/.ghcup/bin/ghcup",
     "zenMode.fullScreen": false,
     "rust-analyzer.lens.enable": false,
     "editor.guides.highlightActiveBracketPair": false,
     "editor.guides.highlightActiveIndentation": false,
-    "editor.occurrencesHighlight": false,
+    "editor.occurrencesHighlight": "off",
     "zig.zls.semanticTokens": "full",
+    "zig.zls.buildRunnerGlobalCachePath": "/Users/david/.cache/zig",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "lldb.launch.expressions": "native",
+    "zig.checkForUpdate": false,
+    "editor.smoothScrolling": true,
+    "haskell.plugin.ghcide-type-lenses.globalOn": false,
+    "haskell.plugin.importLens.codeLensOn": false,
+    "haskell.plugin.class.codeLensOn": false,
+    "cmake.configureOnOpen": true,
+    "zig.path": "zig",
+    "zig.initialSetupDone": true,
+    "zig.zls.path": "~/zls/zls",
+    "kotlin.externalSources.autoConvertToKotlin": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "editor.detectIndentation": false,
+    "workbench.editor.empty.hint": "hidden"
 }
