@@ -44,7 +44,3 @@ Supported languages include:
 - Rust (Full)
 - Zig (Partial, Zig itself doesn't yet have good enough lsp support for Strawberry to work, so it's missing the green color)
 - TypeScript (Full)
-
-## Fleet
-
-There is now a version for Fleet, however it doesn't properly color booleans in Rust for some reason.
