@@ -1,0 +1,53 @@
+{
+    "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+    "name": "Strawberry",
+    "author": "TeamPuzel",
+    "themes": [
+        {
+            "name": "Strawberry Soft",
+            "appearance": "dark",
+            "style": {
+                "editor.background": "#141313",
+                "background": "#111111",
+                "border": "#303030",
+                "text": "#ffffff88",
+                "editor.line_number": "#ffffff22",
+                "editor.active_line_number": "#ffffff66",
+                "editor.active_line.background": "#ffffff0a",
+                "error.background": "#562530",
+                "error.border": "#fa4673",
+                "warning.background": "#544a31",
+                "warning.border": "#e5be6b",
+                "editor.foreground": "#dadada",
+                
+                "players": [
+                    {
+                        "cursor": "#aaaaaa",
+                        "background": "#10a793ff",
+                        "selection": "#92e3a02d"
+                    }
+                ],
+                
+                // "hint": "#618399",
+                "hint": "#5b6b6b",
+                "syntax": {
+                    "keyword": { "color": "#fa4673", "font_weight": 900 },
+                    "boolean": { "color": "#fa4673", "font_style": "italic", "font_weight": 900 },
+                    "constructor": { "color": "#fa4673", "font_style": "italic", "font_weight": 900 },
+                    "attribute": { "color": "#fa4673", "font_style": "italic", "font_weight": 900 },
+                    // struct - 9bc485, type - e5be6b
+                    "constant": { "color": "#c8dd86", "font_weight": 900 },
+                    "tag": { "color": "#c8dd86", "font_weight": 900 },
+                    "type": { "color": "#92e3a0", "font_weight": 900 },
+                    "function": { "color": "#fafafa", "font_weight": 400 },
+                    "number": { "color": "#ffbb00", "font_weight": 900 },
+                    "comment": { "color": "#6f868f" },
+                    "comment.doc": { "color": "#6f868f" },
+                    "string": { "color": "#fba169" },
+                    "hint": { "color": "#ffffff10" },
+                    "variable": { "color": "#75accc", "font_weight": 900 }
+                }
+            }
+        }
+    ]
+}
